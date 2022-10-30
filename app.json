@@ -1,137 +1,188 @@
 {
-  "name": "CYBER-X 1.5 BETA",
-  "description": "ᴄʏʙᴇʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ",
-  "repository": "https://github.com/darkalphaxteam/CYBER-X-BETA-1.5.1-RELEASE-",
-  "logo": "https://telegra.ph/file/0c126ae19dca72ab0cae0.jpg",
-  "keywords": ["nodejs", "Bot", "WhatsApp Bot", "WhatsApp Automation", "Multi Device"],
-   "env": {
-          	"SUDO_NUMBER": {
-			"description": "Add the owner number here",
-			"required": true,
-			"value": "94711421243"
-		    },
-		    "BOT_NAME": {
-			"description": "Change the bot Name here",
-			"required": true,
-			"value": "CYBER-X BETA 1.5"
-			},
-			"BOT_NUMBER": {
-			"description": "Change the Bot Number",
-			"required": true,
-			"value": "94778962038"
-			},
-			"STICKERS_NAME": {
-			"description": "Add the Stickers Name",
-			"required": true,
-			"value": "ᴋɪɴɢ.ᴅᴀʀᴋ ᴀʟᴘʜᴀ"
-			},
-			"OWNER_NAME": {
-			"description": "Add Your Name",
-			"required": true,
-			"value": "ᴅᴀʀᴋ ᴀʟᴘʜᴀ"
-			},
-			"FOOTER": {
-			"description": "Add Your Button Massage's Footer",
-			"required": true,
-			"value": "ᴄʏʙᴇʀ-x ʙᴇᴛᴀ ʀᴇʟᴇᴀꜱᴇ"
-			},
-			"ALIVE_IMAGE": {
-			"description": "Add Your Alive Image Derect Link",
-			"required": true,
-			"value": "https://telegra.ph/file/bd50f0727084519bf78e9.jpg"
-			},
-			"ALIVE_MSG": {
-			"description": "Add Your Alive massage",
-			"required": true,
-			"value": "Hellow I'm Alive"
-			},
-			"MENU_IMAGE": {
-			"description": "Add Your Name",
-			"required": true,
-			"value": "https://telegra.ph/file/bd50f0727084519bf78e9.jpg"
-			},
-			"WELCOME_IMAGE": {
-			"description": "Add Your Welcome Image",
-			"required": true,
-			"value": "https://telegra.ph/file/ec6ee52c715d16837c7ca.jpg"
-			},
-			"GOODBYE_IMAGE": {
-			"description": "Add Your Goodbye Image",
-			"required": true,
-			"value": "https://telegra.ph/file/4a576ba9ee45994d62aaa.jpg"
-			},
-			"CAPTION": {
-			"description": "Add Your Downloaded Video's Caption",
-			"required": true,
-			"value": "ʙʏ ᴄʏʙᴇʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"
-			},
-			"YOUR_WEB": {
-			"description": "Add Your web or a nother Link",
-			"required": true,
-			"value": "https://github.com/darkalphaxteam"
-			},
-			"PREMIUM_NUMBER" : {
-			"description": "Add your Number For unlock all Bot Features",
-			"required": true,
-			"value": "94711421243"
-			},
-			"SONGUP_MSG": {
-			"description": "Add Massage For Song Uploading",
-			"required": true,
-			"value": "UPLOADING YOUR SONG PLEASE WAIT..."
-			},
-			"WELCOME_GOODBYE": {
-			"description": "Set 'true' if you want the Welcome and Goodbye massages  add 'false' if you don't",
-			"required": true,
-			"value": "true"
-			},
-			"DEPLOYER_NAME": {
-			"description": "Add Your Name",
-			"required": true,
-			"value": "DARK ALPHA"
-			},
-			"LOCATION": {
-			"description": "Add Your Location",
-			"required": true,
-			"value": "Sri Lanka, Kurunagala, Nikaweratiya"
-			},
-			"CALL_BLOCK": {
-			"description": "Call Block system",
-			"required": true,
-			"value": "false"
-			},
-			"AUTO_BGM": {
-			"description": "Auto BGM Reply System",
-			"required": true,
-			"value": "true"
-			},
-			"THEME_EMOJI": {
-			"description": "Add Your Favorite Emoji",
-			"required": true,
-			"value": "⛽"
-			},
-			"INBOX_MSG": {
-			"description": "Add Your Inbox Back Massage",
-			"required": true,
-			"value": "*ᴄʏʙᴇʀ-x ᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴏɴʟʏ ᴡᴏʀᴋɪɴɢ ɪɴ ɢʀᴏᴜᴘꜱ*"
-			}
-			
-          },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
+    "name": "VIHANA MD",
+    "description": "whatsapp md bot build with nodejs",
+    "repository": "https://github.com/vihangayt0/VihangaBot-MD-V2",
+    "logo": "https://telegra.ph/file/88d6fdeff08bbc4945901.jpg",
+    "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+    "env": {
+  
+"WELCOME_AND_GOODBYE" :{
+    "description" : "IF YOU NEED TO OFF THIS TYPE : false",
+    "required" : true,
+  "value" : "true"
     },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  
+      "RULES" :{
+    "description" : "Type Youre Rules",
+    "required" : true,
+  "value" : "NO BAD WORDS HEARE"
     },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      
+        "AUTO_BIO" :{
+    "description" : "IF YOU NEED TO OFF THIS TYPE : false",
+    "required" : true,
+  "value" : "true"
+    },
+                "INBOXBLOCK" :{
+    "description" : "IF YOU NEED TO ON THIS TYPE : true",
+    "required" : true,
+  "value" : "false"
+    },
+        
+                        "ANTIBAD" :{
+    "description" : "IF YOU NEED TO ON THIS TYPE : true",
+    "required" : true,
+  "value" : "false"
+    },
+   
+                                "ANTIVIEWONCE" :{
+    "description" : "IF YOU NEED TO ON THIS TYPE : true",
+    "required" : true,
+  "value" : "false"
+    },
+       
+                                        "ANTILINK" :{
+    "description" : "IF YOU NEED TO ON THIS TYPE : true",
+    "required" : true,
+  "value" : "false"
+    },
+        
+"GROUP_ONLY_MSG" :{
+    "description" : "TYPE ONLY GROUP MSG",
+    "required" : true,
+  "value" : "*Sorry... Bot Is Only Work In Group*\n\n*https://chat.whatsapp.com/GJ9bAPxYpktAnqbXVsnRuf*"
+    },
+        
+        "WELCOME_MSG" :{
+    "description" : "TYPE WELCOME MSG",
+    "required" : true,
+  "value" : "*HELLO WELCOME TO OUR GROUP*"
+    },
+  
+                "BYE_MSG" :{
+    "description" : "TYPE BYE MSG",
+    "required" : true,
+  "value" : "*BYE BRO*"
+    },
+        
+        "ALIVE_MSG" :{
+    "description" : "TYPE ALIVE MSG",
+    "required" : true,
+  "value" : "*IM ALIVE NOW*"
+    },
+        
+"CALL_BLOCK" :{
+    "description" : "IF YOU NEED TO ON THIS TYPE : true",
+    "required" : true,
+  "value" : "false"
+    },
+      
+"AUTO_BLOCK212" :{
+    "description" : "IF YOU NEED TO ON THIS TYPE : true",
+    "required" : true,
+  "value" : "false"
+    },
+      
+"onlygroup" :{
+    "description" : "IF YOU NEED TO ON THIS TYPE : true",
+    "required" : true,
+  "value" : "false"
+    },
+    
+"AUTO_REACT" :{
+    "description" : "IF YOU NEED TO OFF THIS TYPE : false",
+    "required" : true,
+  "value" : "true"
+    },
+      
+"OWNER_REACT_EMOJI" :{
+    "description" : "TYPE ANY EMOJI TO OWNER REACT",
+    "required" : true,
+  "value" : "🧑"
+    },
+      
+"REACT_NUMBER" :{
+    "description" : "TYPE OWNER NUMBER TO OWNER REACT",
+    "required" : true,
+  "value" : "947634278433"
+    },
+      
+"OWNER_NUMBER" :{
+    "description" : "TYPE OWNER NUMBER",
+    "required" : true,
+  "value" : "947634278433"
+    },
+      
+"OWNER_NUMBER2" :{
+    "description" : "TYPE ANY NUMBER",
+    "required" : true,
+  "value" : "947634278433"
+    },
+    
+"BOT_NAME" :{
+    "description" : "TYPE BOT NAME",
+    "required" : true,
+  "value" : "𝐕𝐈𝐇𝐀𝐍𝐆𝐀 𝐌𝐃"
+    },
+      
+"OWNER_NAME" :{
+    "description" : "TYPE OWNER NAME",
+    "required" : true,
+  "value" : "ᴠɪʜͥᴀɴͣɢͫᴀ ʏᴛ"
+    },
+      
+"GROUP_LINK" :{
+    "description" : "TYPE GROUP LINK",
+    "required" : true,
+  "value" : "https://chat.whatsapp.com/DmuruivGISz50xZLcIcfZS"
+},
+      
+  "GROUP_LINK2" :{
+    "description" : "TYPE GROUP LINK 2",
+    "required" : true,
+  "value" : "https://chat.whatsapp.com/DmuruivGISz50xZLcIcfZS"
+},
+    
+"PACK_NAME" :{
+    "description" : "TYPE ANY NAME",
+    "required" : true,
+  "value" : "STICKER BY VIHANGA MD"
+},
+  
+"CAP_NAME" :{
+    "description" : "TYPE ANY NAME",
+    "required" : true,
+  "value" : "*BY VIHANGA MD*"
+},
+    
+"IMG_URL" :{
+    "description" : "UPLOAD YOURE PHOTO TO IMGBB AND TYPE URL",
+    "required" : true,
+  "value" : "https://telegra.ph/file/88d6fdeff08bbc4945901.jpg"
+},
+  
+  "YT_URL" :{
+    "description" : "IF U HAVE YT CHANNEL TYPE URL",
+    "required" : true,
+    "value" :"https://youtu.be/Z9rIR0Vopb8"
     }
-  ],
-   "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
-}
+    },
+  
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      },
+      {
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      },
+      {
+        "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      }
+    ],
+     "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      }
+  }
