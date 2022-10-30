@@ -1,7 +1,7 @@
 {
     "name": "MARSHMELLO MD",
     "description": "whatsapp md bot build with nodejs",
-    "repository": "https://github.com/Thami2007/MARSHMELLO-MD.git",
+    "repository": "https://github.com/vihangayt0/VihangaBot-MD-V2",
     "logo": "https://i.postimg.cc/PxtXXx8Y/895825.jpg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
     "env": {
